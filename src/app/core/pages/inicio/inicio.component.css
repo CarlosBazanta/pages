@@ -1,25 +1,25 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
 .bot{
-  margin-top: 20%;
-  margin-left: 45%;
-  position: absolute;
+  text-align: center;
 }
 
-.bot2{
-  margin-top: 20%;
-  margin-left: 49%;
-  position: absolute;
-}
-
-.bot3{
-  margin-top: 20%;
-  margin-left: 53%;
-  position: absolute;
+.btn{
+  margin-left: 1%;
 }
 
 .tit{
   margin-top: 15%;
-  margin-left: 47%;
-  position: absolute;
+}
+
+.titt{
+  text-align: center;
+}
+
+.bi-window-stack{
+  color: rgb(255, 255, 255);
+  width: 50%;
+  height: 50%;
 }
 
 

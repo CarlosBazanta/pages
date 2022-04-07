@@ -1,20 +1,28 @@
 <nav class="navbar navbar-dark bg-dark">
-<i class="bi bi-clock-history"></i>
+  <div class="container-fluid">
+    <i class="bi bi-window-stack .btn-lg"> Carlos Gonzalez</i>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Que es lo que tu buscas" aria-label="Search">
+      <button class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
+    </form>
+  </div>
 </nav>
 
 <div class="tit">
-  <h1>Inicio</h1>
+  <h1 class="titt">¡Hola, Bienvenido!</h1>
 </div>
 
 <div>
   <div class="bot">
-    <button class="btn btn-outline-primary btn-lg" routerLink="/examples">x</button>
-  </div>
-  <div class="bot2">
-    <button type="button" class="btn btn-outline-primary btn-lg" routerLink="/profile">y</button>
-  </div>
-  <div class="bot3">
-    <button type="button" class="btn btn-outline-warning btn-lg" routerLink="/contact">z</button>
+
+    <button class="btn btn-outline-primary btn-lg" routerLink="/examples" placement="bottom"
+    ngbTooltip="Aqui encontrara algunos programas que he realizados"><i class="bi bi-list-columns-reverse"></i> Ejercicios</button>
+
+    <button type="button" class="btn btn-outline-primary btn-lg" routerLink="/profile" placement="bottom"
+    ngbTooltip="En este apartado podras conocer un poco mas de mi trabajo, y de mi" ><i class="bi bi-person-fill"></i> Mi perfil</button>
+
+    <button type="button" class="btn btn-outline-info btn-lg" routerLink="/contact" placement="bottom"
+    ngbTooltip="En caso de estar interesado en mi trabajo, envia tu propuesta"><i class="bi bi-send-fill"></i> Contacto</button>
   </div>
 
 </div>

@@ -7,6 +7,7 @@ import { InicioComponent } from './core/pages/inicio/inicio.component';
 import { ExamplesComponent } from './core/pages/examples/examples.component';
 import { ProfileComponent } from './core/pages/profile/profile.component';
 import { ContactComponent } from './core/pages/contact/contact.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactComponent } from './core/pages/contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

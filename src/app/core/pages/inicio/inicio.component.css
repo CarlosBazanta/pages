@@ -1,7 +1,9 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
 
 .bot{
   text-align: center;
+  margin-top: 3%;
 }
 
 .btn{

@@ -1,37 +1,3 @@
-<header>
-
-  <nav class="navbar navbar-dark bg-dark" style="background-color: rgba(0, 0, 0, 0.527) !important;">
-   <div class="container-fluid">
-     <i class="bi bi-window-stack .btn-lg"> Carlos Gonzalez</i>
-
-       <div class="d-flex">
-
-         <div class="btn-group" role="group" aria-label="Basic radio toggle button group" style="margin-right: 2%;">
-
-          <input
-            type="radio" class="btn-check" name="btnradio" id="btnen" autocomplete="off"checked
-            [ngClass]="{'active': selectedLanguage == 'en'}"
-            (click)="toogleLanguage('en')">
-
-          <label class="btn btn-outline-warning" for="btnen" >En</label>
-
-          <input type="radio" class="btn-check" name="btnradio" id="btnes" autocomplete="off"
-            [ngClass]="{'active': selectedLanguage == 'es'}"
-            (click)="toogleLanguage('es')">
-
-           <label class="btn btn-outline-warning" for="btnes">Es</label>
-        </div>
-
-          <input class="form-control me-2" type="search" placeholder="{{'home.nav' | translate }}" aria-label="Search">
-          <button class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
-
-       </div>
-
-    </div>
-  </nav>
-
-</header>
-
 
 
   <div class="tit">

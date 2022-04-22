@@ -1,8 +1,18 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
 body{
-   background-image: url(https://images7.alphacoders.com/118/thumb-1920-1189627.png);
+   background-image: url(https://images4.alphacoders.com/105/thumb-1920-1058585.png);
  height: 100% !important;
   width: 100%;
   background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+}
+
+
+.bi-window-stack{
+  color: rgb(255, 255, 255);
+  width: 50%;
+  height: 50%;
 }

@@ -9,11 +9,6 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 
-export function createTranslateLoader(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
-
-}
-
 @NgModule({
   declarations: [
     InicioComponent,
@@ -23,13 +18,7 @@ export function createTranslateLoader(http: HttpClient) {
     CoreRoutingModule,
     NgbModule,
     HttpClientModule,
-    TranslateModule.forRoot({
-      loader: {
-          provide: TranslateLoader,
-          useFactory: createTranslateLoader,
-          deps: [HttpClient]
-      }
-  })
+    TranslateModule
   ],
   bootstrap: [InicioComponent]
 })

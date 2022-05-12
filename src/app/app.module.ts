@@ -31,6 +31,7 @@ export function createTranslateLoader(http: HttpClient) {
       }
     })
   ],
+  exports : [TranslateModule],
   providers: [],
   bootstrap: [AppComponent]
 })

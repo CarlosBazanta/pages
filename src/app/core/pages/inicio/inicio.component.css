@@ -1,23 +1,35 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
 .bot{
-  margin-top: 25%;
-  margin-left: 45%;
-  position: absolute;
+  text-align: center;
+  margin-top: 3%;
 }
 
-.bot2{
-  margin-top: 25%;
-  margin-left: 49%;
-  position: absolute;
-}
-
-.bot3{
-  margin-top: 25%;
-  margin-left: 53%;
-  position: absolute;
+.btn{
+  margin-left: 1%;
 }
 
 .tit{
-  margin-top: 20%;
-  margin-left: 47%;
-  position: absolute;
+  margin-top: 15%;
 }
+
+.titt{
+  text-align: center;
+  color:aliceblue;
+}
+
+/* body{
+  background-image: url(https://images7.alphacoders.com/118/thumb-1920-1189627.png);
+ height: 100% !important;
+  width: 100%;
+  background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+} */
+
+
+
+
+
+

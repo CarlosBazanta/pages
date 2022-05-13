@@ -1,16 +1,26 @@
-<div class="tit">
-  <h1>Inicio</h1>
-</div>
 
-<div>
+
+  <div class="tit">
+    <h1 class="titt">{{'home.title' | translate }}</h1>
+  </div>
+
+
   <div class="bot">
-    <button class="btn btn-outline-primary btn-lg" routerLink="/examples">x</button>
-  </div>
-  <div class="bot2">
-    <button type="button" class="btn btn-outline-primary btn-lg" routerLink="/profile">y</button>
-  </div>
-  <div class="bot3">
-    <button type="button" class="btn btn-outline-warning btn-lg" routerLink="/contact">z</button>
+
+    <button class="btn btn-outline-light btn-lg" routerLink="/examples" placement="bottom"
+    ngbTooltip="{{'home.tooltip.example' | translate }}">
+    <i class="bi bi-list-columns-reverse"></i> {{'home.example' | translate }}</button>
+
+    <button type="button" class="btn btn-outline-light btn-lg" routerLink="/profile" placement="bottom"
+    ngbTooltip="{{'home.tooltip.profile' | translate }}" >
+    <i class="bi bi-person-fill"></i> {{'home.profile' | translate }}</button>
+
+    <button type="button" class="btn btn-outline-warning btn-lg" routerLink="/contact" placement="bottom"
+    ngbTooltip="{{'home.tooltip.contact' | translate }}">
+    <i class="bi bi-send-fill"></i> {{'home.contact' | translate }}</button>
+
   </div>
 
-</div>
+
+
+

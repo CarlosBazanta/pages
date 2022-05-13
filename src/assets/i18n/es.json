@@ -1,0 +1,15 @@
+{
+  "home": {
+    "title": "Hola, Bienvenido!",
+    "example": "Ejercicio",
+    "profile": " Mi Perfil",
+    "contact": "Contacto",
+    "nav":"Que es lo que tu buscas",
+
+    "tooltip":{
+      "example": "Aqui encontrara algunos programas que he realizados",
+      "profile": "En este apartado podras conocer un poco mas de mi, y de mi trabajo",
+      "contact": "En caso de estar interesado en mi trabajo, envie su propuesta"
+    }
+  }
+}

@@ -1,7 +1,9 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
 
 .bot{
   text-align: center;
+  margin-top: 3%;
 }
 
 .btn{
@@ -17,11 +19,6 @@
   color:aliceblue;
 }
 
-.bi-window-stack{
-  color: rgb(255, 255, 255);
-  width: 50%;
-  height: 50%;
-}
 /* body{
   background-image: url(https://images7.alphacoders.com/118/thumb-1920-1189627.png);
  height: 100% !important;

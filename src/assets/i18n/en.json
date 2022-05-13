@@ -1,0 +1,15 @@
+{
+  "home": {
+    "title": "Hi, Welcome!",
+    "example": "Example",
+    "profile": "Profile",
+    "contact": "Contact",
+    "nav":"What do you want",
+
+    "tooltip":{
+      "example": "Right here you can find some examples and programs i've done",
+      "profile": "In this section you can learn a little more about my, and my work",
+      "contact": "If you are interested in my work, here you can send your proposal"
+    }
+  }
+}

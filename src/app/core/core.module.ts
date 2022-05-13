@@ -3,8 +3,11 @@ import { CommonModule } from '@angular/common';
 
 import { CoreRoutingModule } from './core-routing.module';
 import { InicioComponent } from './pages/inicio/inicio.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -12,7 +15,11 @@ import { InicioComponent } from './pages/inicio/inicio.component';
   ],
   imports: [
     CommonModule,
-    CoreRoutingModule
-  ]
+    CoreRoutingModule,
+    NgbModule,
+    HttpClientModule,
+    TranslateModule
+  ],
+  bootstrap: [InicioComponent]
 })
 export class CoreModule { }
